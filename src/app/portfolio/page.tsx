@@ -32,9 +32,9 @@ const page = () => {
                 <br/><br/><b>I accept:</b> <br/>Paypal, kofi, steam credit/games, robux
                 </p>
             </div>
-                <div className="grid relative justify-items-center">
+                <div className="grid relative justify-items-end">
                     <GalaryContainer />
-                    <div className="absolute  top-2/3 left-0 right-0 bottom-0 bg-gradient-to-t from-background to-transparent"/>
+                    <div className="absolute  top-3/4 left-0 right-0 bottom-0 bg-gradient-to-t from-background to-transparent"/>
                 </div>
             </motion.div>
             </div>
