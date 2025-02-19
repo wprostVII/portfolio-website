@@ -44,6 +44,14 @@ const Images: {
     name: 'Will Graham',
     src: '/will_graham.png',
     alt: 'Will Graham Drawing'
-}]
+},
+// Do not remove the placeholder image
+// or add images under it
+{
+    name: 'Placeholder image',
+    src: '/Placeholder-image.png',
+    alt: 'placeholder'
+}
+]
 
 export default Images
