@@ -34,7 +34,7 @@ const page = () => {
             I really love to listen to Brutal Slam Metal, Splittercore, and Polish Punk.<br/>
             Postal 2, Half life 2, and BlackLight Retribution are my favourite games.
             <br/><br/>
-            I made this site all by myself but now I gotta give credit to Archery Luna cus bro <br/>decided to spam save changes when fixing text positions :P
+            I made this site mainly by myself but I gotta give credit to Archery Luna for helping <br/>me with the gallery and fixing positions :P
             </p>
             </div>
             </motion.div>
