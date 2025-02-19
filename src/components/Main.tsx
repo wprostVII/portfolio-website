@@ -12,6 +12,8 @@ import {faFile} from '@fortawesome/free-solid-svg-icons';
 import {faHouse} from '@fortawesome/free-solid-svg-icons';
 import {faPaw} from '@fortawesome/free-solid-svg-icons';
 
+import Image from 'next/image';
+
 const MainText = () => {
     return(
         <div className="flex flex-col w-full">
@@ -25,7 +27,7 @@ const MainText = () => {
             </div>
         </motion.div>
         
-            <div className="relative items-center">
+            <div className="relative items-center h-[94vh]">
             <motion.div
             initial={{opacity: 0}}
             animate={{opacity: 1}}
@@ -38,7 +40,7 @@ const MainText = () => {
             initial={{opacity: 0}}
             animate={{opacity: 1}}
             transition={{duration: 1, ease: "easeInOut", delay:4}}>
-                <img src="me.png" width={990} height={660} alt="an artwork of me" className="float-right"/>   
+                <Image src="/me.png" width={990} height={660} alt="an artwork of me" className="float-right"/>   
             </motion.div>
             
             <motion.div
