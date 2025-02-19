@@ -32,7 +32,9 @@ const page = () => {
             I use Clip Studio Paint on my laptop with a wacom intuos 4100 drawing tablet.
             <br/><br/>
             I really love to listen to Brutal Slam Metal, Splittercore, and Polish Punk.<br/>
-            Postal 2, Half life 2, and BlackLight Retribution are my favourite games!
+            Postal 2, Half life 2, and BlackLight Retribution are my favourite games.
+            <br/><br/>
+            I made this site all by myself but now I gotta give credit to Archery Luna cus bro <br/>decided to spam save changes when fixing text positions :P
             </p>
             </div>
             </motion.div>
