@@ -22,11 +22,11 @@ const page = () => {
             animate={{opacity: 1}}
             transition={{duration: 0.5, ease: "easeInOut"}}>
             <div className="absolute p-5 font-['Comfortaa']">
-                <p><b>Commission Prices:</b><br/>Pay what you want! <sub>You as the client get to pay as much regardless of what you order :3</sub>
+                <p><b>Commission Prices:</b><br/>Pay what you want! <br/> You as the client get to pay as much regardless of what you order :3
                 
-                <br/><br/><b>Minimum:</b> $15 USD <sub>per artwork</sub>
+                <br/><br/><b>Minimum:</b> <br/>$15 USD per artwork
                 
-                <br/><br/><b>I accept:</b> Paypal, cashapp, kofi, steam credit/games, robux
+                <br/><br/><b>I accept:</b> <br/>Paypal, kofi, steam credit/games, robux
                 </p>
             </div>
             </motion.div>
