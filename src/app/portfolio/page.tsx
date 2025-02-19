@@ -2,6 +2,7 @@
 import { motion } from "motion/react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faQuoteLeft } from '@fortawesome/free-solid-svg-icons';
+import { GalaryContainer } from "@/components/galary/container";
 
 
 const page = () => {
@@ -20,8 +21,10 @@ const page = () => {
             <motion.div
             initial={{opacity: 0}}
             animate={{opacity: 1}}
-            transition={{duration: 0.5, ease: "easeInOut"}}>
-            <div className="absolute p-5 font-['Comfortaa']">
+            transition={{duration: 0.5, ease: "easeInOut"}}
+            className="grid grid-cols-2 w-full"
+            >
+            <div className="p-5 font-['Comfortaa']">
                 <p><b>Commission Prices:</b><br/>Pay what you want! <br/> You as the client get to pay as much regardless of what you order :3
                 
                 <br/><br/><b>Minimum:</b> <br/>$15 USD per artwork
@@ -29,6 +32,9 @@ const page = () => {
                 <br/><br/><b>I accept:</b> <br/>Paypal, kofi, steam credit/games, robux
                 </p>
             </div>
+                <div className="grid justify-items-center">
+                    <GalaryContainer />
+                </div>
             </motion.div>
             </div>
         </div>
