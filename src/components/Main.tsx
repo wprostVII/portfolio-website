@@ -33,7 +33,7 @@ const MainText = () => {
             animate={{opacity: 1}}
             transition={{duration: 1, ease: "easeInOut", delay:4}}>
             <div className="absolute bottom-0 left-0">
-                <h1 className="text-8xl px-5 font-['UbuntuL']">WPROSTVII</h1>
+                <h1 className="text-8xl px-5 font-['UbuntuL']">wprostVII</h1>
             </div>
             </motion.div>
             <motion.div
