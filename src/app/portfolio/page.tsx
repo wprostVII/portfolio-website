@@ -24,7 +24,7 @@ const page = () => {
             transition={{duration: 0.5, ease: "easeInOut"}}
             className="grid grid-cols-2 w-full"
             >
-            <div className="p-5 font-['Comfortaa']">
+            <div className="p-5 text-lg font-['Comfortaa']">
                 <p><b>Commission Prices:</b><br/>Pay what you want! <br/> You as the client get to pay as much regardless of what you order :3
                 
                 <br/><br/><b>Minimum:</b> <br/>$15 USD per artwork
