@@ -38,7 +38,7 @@ const MainText = () => {
                 animate={{opacity: 1}}
                 transition={{duration: 1, ease: "easeInOut", delay:4}}
                 className="absolute bottom-0 right-0">
-                    <img src="/me.png" width={990} height={660} alt="an artwork of me" className="float-right"/>   
+                    <img src="/me.png" width={990} height={660} alt="an artwork of me" className="float-right grayscale-[.2]"/>   
                 </motion.div>
             
                 <motion.div
@@ -73,7 +73,7 @@ const MainText = () => {
                             </Link>
                             
                         </div>
-                        <p className="py-5">Welcome stranger to my little corner of the web!<br/>I am a digital 2D artist who draws mostly for fun.
+                        <p className="py-5 text-lg">Welcome stranger to my little corner of the web!<br/>I am a digital 2D artist who draws mostly for fun.
                         <br/>Feel free to talk to me on any social media platform ^_^</p>
                     </div>
                 </motion.div>
