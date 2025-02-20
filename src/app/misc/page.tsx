@@ -21,9 +21,9 @@ const page = () => {
             animate={{opacity: 1}}
             transition={{duration: 0.5, ease: "easeInOut"}}>
             <div className="absolute p-5 font-['Comfortaa']">
-            <h2 className="text-4xl font-black font-['UbuntuL']">wprostVII (pronounced vprost 7)</h2>
-            <h2 className="text-2xl font-bold text-muted-foreground font-['UbuntuL']">Also known as Cement Mix or Prost</h2>
-            <p><br/>
+            <h2 className="text-5xl font-black font-['UbuntuL']">wprostVII (pronounced vprost 7)</h2>
+            <h2 className="text-3xl font-bold text-muted-foreground font-['UbuntuL']">Also known as Cement Mix or Prost</h2>
+            <p className="text-lg"><br/>
             <i>From a very young age, I have been drawing constantly during any spare time I get.<br/>
             Art is a crucial part of my identity and without it I wouldn't be my true self.</i><br/><br/>
 
